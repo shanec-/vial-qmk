@@ -14,7 +14,22 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+
+/* SPDX-License-Identifier: GPL-2.0-or-later */
+
 #pragma once
+
+#define VIAL_KEYBOARD_UID {0xB2, 0xD7, 0xBF, 0x79, 0x30, 0x92, 0x05, 0x07}
+
+#define VIAL_UNLOCK_COMBO_ROWS { 0, 0 }
+#define VIAL_UNLOCK_COMBO_COLS { 3, 4 }
+
+/* #define VIAL_ENCODER_DEFAULT { \
+    KC_VOLD, KC_VOLU, \
+    KC_TRNS, KC_TRNS, \
+    KC_LEFT, KC_RGHT, \
+    KC_DOWN, KC_UP \
+} */
 
 /* Onboard LEDs  */
 #define LED_00 B6
