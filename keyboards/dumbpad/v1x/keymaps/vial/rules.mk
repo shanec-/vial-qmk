@@ -9,6 +9,7 @@ BOOTLOADER = caterina
 #
 VIA_ENABLE = yes			# Enable VIA compatibility
 VIAL_ENABLE = yes			# Enable Vial compatibility
+VIAL_ENCODERS_ENABLE = yes  # Enable Vial Rotary Encoders
 QMK_SETTINGS = no			# Enable Vial QMK Settings Menu
 TAP_DANCE_ENABLE = no       # Enable Vial Tap Dance Menu
 COMBO_ENABLE = yes          # Enable Vial Combo Menu
@@ -28,7 +29,6 @@ BLUETOOTH_ENABLE = no       # Enable Bluetooth
 AUDIO_ENABLE = no           # Audio output
 
 ENCODER_ENABLE = yes
-VIAL_ENCODERS_ENABLE = yes  # Enable Vial Rotary Encoders
 ENCODER_MAP_ENABLE = yes
 KEY_LOCK_ENABLE = yes
 
